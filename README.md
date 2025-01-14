@@ -26,9 +26,6 @@ This is a simple real-time math game where:
 
 ## Technologies
 
-- **Frontend:** React
-  - React hooks (`useState`, `useEffect`, `useCallback`)
-  - SignalR client integration for real-time communication
 - **Backend:** SignalR Hub (for handling communication)
   - ASP.NET Core SignalR (backend setup for real-time communication)
 
@@ -38,16 +35,11 @@ This is a simple real-time math game where:
 
 To run this project, ensure you have the following installed:
 
-- **Node.js** (for React app)
 - **.NET SDK** (for SignalR backend)
 
 ### Install Frontend Dependencies
 
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/yourusername/math-game-react-signalr.git
-   cd math-game-react-signalr
+1. Clone this repository
    
 2. Install dependencies for the React app:
 
@@ -66,10 +58,3 @@ To run this project, ensure you have the following installed:
 
  ```bash
    dotnet run
-
-5. Run the Frontend
-Start the React development server:
-  
-   ```bash
-    npm start
-Open your browser and go to http://localhost:3000 to see the math game in action.
