@@ -41,12 +41,7 @@ To run this project, ensure you have the following installed:
 
 1. Clone this repository
    
-2. Install dependencies for the React app:
-
-   ```bash
-   npm install
-
-3. Run the Backend
+2. Run the Backend
   For the backend (SignalR Hub), follow these steps:
 
   Navigate to the backend directory in your project (if applicable) and restore the required NuGet packages:
